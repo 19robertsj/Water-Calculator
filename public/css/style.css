@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+.block {
+    height: 174px;
+    width: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 137px;
+    border: 10px double #FFFFFF;
+    box-shadow: 7px 7px 40px #606060;
+}
+
+#calc {
+    background: red;
+    font-size: 1.5em;
+    font-family: 'Indie Flower';
+    color: black;
+    text-align: center;
+}
+
+#about {
+    background: #649ECE;
+    font-size: 1.7em;
+    font-family: 'Indie Flower';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#wall {
+    position: absolute;
+    height: 450px;
+    width: 750px;
+    left: 50%;
+    top: 50%;
+    margin-top: -225px; 
+    margin-left: -375px;
+   /*  margin: -225px 0 0 -375px; */
+    background: #30D5C8;
+}
+ .block1 {
+    height: 174px;
+    width: 150px;
+    border: 10px dotted #FFFFFF;
+    box-shadow: 7px 7px 40px #606060;
+    display: inline-block;
+    vertical-align:middle;
+    margin: 20px;
+    
+}
+
+.container {
+    width: 100%; 
+    text-align: center;
+}
+
+#weight{
+    background: red;
+    font-size: 1.2em;
+    font-family: 'Indie Flower';
+    color: black;
+    text-align: center;
+}
+
+#workout {
+    background: #649ECE;
+    font-size: 1.2em;
+    font-family: 'Indie Flower';
+    color: black;
+    text-align: center;
+}
+
+#temp {
+    background: pink;
+    font-size: 1.0em;
+    font-family: 'Indie Flower';
+    color: black;
+    text-align: center;
+}
+
+.click {
+    width: 100%;
+    text-align: center;
+}
+
+.home_title {
+    text-align: center;
+    font-family:'Indie Flower';
+    color: black
+    font-size: 4em;
+    margin-top: 60px;
+}
+
+.second_header {
+    text-align: center;
+    font-family:'Indie Flower';
+    color: black
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+#about_us {
+   font-size: 1.7em;
+   font-family: 'Indie Flower';
+}
