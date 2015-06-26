@@ -1,10 +1,27 @@
 <!doctype html>
-<html lang=en>
+<html>
   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <h1>Water</h1>
-    <h3> Today you should drink <%=@all_ounces%> ounces. <%=@temperature%></h3>
+    <div id="wall-container">
+      <div id="wall"> 
+        <a style="text-decoration:none" href="/">
+          <div class="home_title">
+            <h1>Hydration Calculator</h1>
+          </div>
+        </a>
+        <div class="content">
+        <h3> Today you should drink <%=@all_ounces%> ounces. <%=@temperature%></h3>
+        </div>
+        <% @number_of_cups.times do %>
+            <img src="http://images.clipartpanda.com/plastic-clipart-AlanSpeak-PlasticCup-water.png" width ="100px"/>
+        <% end %>
+  <!--       <div class="image" id="cups">
+          <img src="http://images.clipartpanda.com/plastic-clipart-AlanSpeak-PlasticCup-water.png" width = 150px/>
+        </div> -->
+      </div>
+    </div>
   </body>
 </html> 
 

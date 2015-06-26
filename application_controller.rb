@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
 require_relative "models/calc.rb"
+require 'pry'
 
 class MyApp < Sinatra::Base
 	
@@ -26,8 +27,8 @@ class MyApp < Sinatra::Base
       @weight = calc.convert_weight
       @workout = calc.add_workout
       @temperature = calc.warn_temperature
-    puts @temperature
-      @all_ounces = (@weight + @workout)
+      @all_ounces = (@weight + @workout).round
+    @number_of_cups = @all_ounces/8
       erb :to_drink
   end
 

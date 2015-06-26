@@ -13,7 +13,7 @@ class Calculator
   end
   def add_workout
     number_of_thirties= @workout_add/30 
-    @ounce = number_of_thirties * 12
+    @ounce = (number_of_thirties * 12)
   end
   def warn_temperature
     if @temperature_warn >= 70.0
